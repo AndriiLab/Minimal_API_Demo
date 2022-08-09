@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo.WebApp", "MinimalApiDemo.WebApp\MinimalApiDemo.WebApp.csproj", "{F04C66AD-65B3-4648-96D0-C4D30761FF76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{50F72EBD-85AE-445F-B91C-A1C555E1E2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo.Modules.Weather", "Modules\MinimalApiDemo.Modules.Weather\MinimalApiDemo.Modules.Weather.csproj", "{77212F88-5144-4251-9674-786A9D5B03E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo.Modules.Core", "Modules\MinimalApiDemo.Modules.Core\MinimalApiDemo.Modules.Core.csproj", "{1B6EEA8C-A3F0-470C-9E3A-99A0EE941894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04C66AD-65B3-4648-96D0-C4D30761FF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04C66AD-65B3-4648-96D0-C4D30761FF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04C66AD-65B3-4648-96D0-C4D30761FF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04C66AD-65B3-4648-96D0-C4D30761FF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77212F88-5144-4251-9674-786A9D5B03E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77212F88-5144-4251-9674-786A9D5B03E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77212F88-5144-4251-9674-786A9D5B03E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77212F88-5144-4251-9674-786A9D5B03E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6EEA8C-A3F0-470C-9E3A-99A0EE941894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6EEA8C-A3F0-470C-9E3A-99A0EE941894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6EEA8C-A3F0-470C-9E3A-99A0EE941894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6EEA8C-A3F0-470C-9E3A-99A0EE941894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77212F88-5144-4251-9674-786A9D5B03E1} = {50F72EBD-85AE-445F-B91C-A1C555E1E2E7}
+		{1B6EEA8C-A3F0-470C-9E3A-99A0EE941894} = {50F72EBD-85AE-445F-B91C-A1C555E1E2E7}
+	EndGlobalSection
+EndGlobal
