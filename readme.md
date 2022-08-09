@@ -1,4 +1,4 @@
-﻿# Minimal API demo inplementation on .NET Core 6
+﻿# Minimal API demo implementation on .NET Core 6
 
  An attempt to implement minimal API.
 ### Features:
